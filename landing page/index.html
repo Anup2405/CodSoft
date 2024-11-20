@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/8be663bb9f.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <h1>Trends</h1>
+      </div>
+      <ul>
+        <li>
+          <a id="home" onclick="homes()">Home</a>
+          <a id="shop" onclick="shops()">Shops</a>
+          <a id="blog" onclick="blogs()">Blog</a>
+          <a id="about" onclick="abouts()">About</a>
+          <a id="contact" onclick="contacts()">Contact</a>
+          <i class="fa-solid fa-cart-plus"></i>
+          <button class="Register" onclick="register()">
+            Sign up
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <!--mainpage-->
+    <div class="main">
+      <div class="mainText">
+        <h2>Trends</h2>
+        <h1>Super Value Deals</h1>
+        <h1>On All Product</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi</p>
+        <button>Explor</button>
+      </div>
+
+      <img src="img/m3.png" alt="" />
+    </div>
+    <!--cards-->
+
+    <div class="trend">
+      <div class="head">
+        <h1>Trends <span>Men's Wear</span></h1>
+      </div>
+      <div class="card">
+        <div class="crd">
+          <img src="img/srt1.webp" alt="" />
+          <div class="crdText">
+            <h2>Cutton Trending Shirt's</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i><br />
+            <button onclick="addC()">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="crd">
+          <img src="img/srt2.webp" alt="" />
+          <div class="crdText">
+            <h2>Cutton Trending Shirt's</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i><br />
+            <button onclick="addC()">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="crd">
+          <img src="img/srt6.webp" alt="" />
+          <div class="crdText">
+            <h2>Cutton Trending Shirt's</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i><br />
+            <button onclick="addC()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Women card-->
+
+    <div class="trend" id="trendsec">
+      <div class="head">
+        <h1>Trends <span>Women's Wear</span></h1>
+      </div>
+      <div class="card">
+        <div class="crd">
+          <img src="img/wn4.webp" alt="" />
+          <div class="crdText">
+            <h2>Trending Girl Top's</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i><br />
+            <button onclick="addC()">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="crd">
+          <img src="img/wn5.webp" alt="" />
+          <div class="crdText">
+            <h2>Trending Girl Top's</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i><br />
+            <button onclick="addC()">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="crd">
+          <img src="img/wn6.webp" alt="" />
+          <div class="crdText">
+            <h2>Trending Girl Top's</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i><br />
+            <button onclick="addC()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--about us-->
+    <div class="about">
+      <div class="aboutus">
+        <h1>#knowus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et repellat assumenda, saepe ad sit
+          dolor placeat dolore facilis, iure quisquam ipsa odio dolorem!</p>
+      </div>
+      <div class="me">
+        <img src="img/Daco_4184671.png" alt="">
+        <div class="aboutText">
+          <h1>Who we are?</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit obcaecati repellendus quis dolores
+            animi ipsum nobis nam, magni officia nemo, veritatis ea culpa magnam.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <!--contact-->
+    <div class="contact">
+      <div class="contactus">
+        <h1>#Let's Connect</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+      <div class="contactMe">
+      
+        <div class="contactText">
+          <h1>Visit Our office or Contact Us Today</h1>
+          <p>Address : golden park,xxxxxx, xxxxxx</p>
+          <p> contact:abhaysawadh@gmail.com</p>
+          <p>Number:8010XXXXXX</p>
+
+        </div>
+        <img src="img/pngwing.com.png" alt="">
+      </div>
+      <form class="form">
+        <h1>Connect with Us. Fill Form</h1>
+        <input type=" text" placeholder="Enter Your FirstName"><br>
+        <input type=" text" placeholder="Enter Your LastName"><br>
+        <input type=" text" placeholder="Enter Your Email"><br>
+        <input type=" text" placeholder="Enter Your Number"><br>
+        <input type=" text" placeholder="Enter Your Address"><br>
+          <button>
+            submit
+          </button>
+      </form>
+    </div>
+
+    <!--Blogs-->
+    <div class="trends">
+      <div class="head">
+        <h1>Trends <span>Women's Wear</span></h1>
+      </div>
+      <div class="card">
+        <div class="blog">
+          <img src="img/tr1.webp" alt="" />
+          <div class="blogtext">
+            <h2>Trending Girl Cloths</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              dolorum ad fugiat repellendus, reiciendis nostrum.
+            </p>
+            <a href="https://influencermarketinghub.com/best-fashion-blogs/">Read more</a>
+          </div>
+        </div>
+        <div class="blog">
+          <img src="img/tr3.webp" alt="" />
+          <div class="blogtext">
+            <h2>Trending Boys Cloths</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              dolorum ad fugiat repellendus, reiciendis nostrum.
+            </p>
+            <a href="https://www.apetogentleman.com/">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--letter-->
+    <div class="letter">
+      <div class="letterText">
+        <h1>Sign Up for NewsLetter</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="inp">
+        <input type="text" placeholder="Enter Email" />
+        <button>Sign Up</button>
+      </div>
+    </div>
+     <!--sign up-->
+     <div>
+      <div class="signup">
+        <form action="">
+          <h1>Create Accout</h1>
+          <label for="text">Your name</label><br>
+          <input type="text" id="text" placeholder="First and last name"><br><br>
+          <label for="">Mobile number</label><br>
+          <select name="" id="">
+              <option value="">+91</option>
+          </select>
+          <input type="text" class="mobile" placeholder="Mobile number"><br><br>
+          <label for="password" id=""> Password</label><br>
+  
+          <input type="password" id="text" placeholder="At least 6 characters"><br>
+          <p>To verify your number, we will send you a text <br>
+              message with a temporary code. Message and data <br>
+              rates may apply. </p>
+  
+          <button type="submit">Verify mobile number</button>
+  
+        </form>
+      </div>
+     </div>
+
+    <!--footer-->
+    <div class="footer">
+      <div class="footerText">
+        <h2>Trends</h2>
+        <p>Service</p>
+        <p>Customer</p>
+        <p>Satisfaction</p>
+        <p></p>
+      </div>
+      <div class="footerText">
+        <h2>About us</h2>
+        <p>
+          Adrress: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p>Service</p>
+        <p>Customer</p>
+        <p>Satisfaction</p>
+      </div>
+      <div class="footerText">
+        <h2>Contect</h2>
+        <p>801059XXXX</p>
+        <p>Customer</p>
+        <p>Comming up..</p>
+        <p>New Arrival</p>
+      </div>
+      <div class="footerText">
+        <h2>Trending</h2>
+        <p>Service</p>
+        <p>Customer</p>
+        <p>Shops</p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="web.js"></script>
+</body>
+
+</html>
